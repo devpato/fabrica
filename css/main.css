@@ -34,6 +34,9 @@
 .rt-icon-lab{
     background-color: white;
 }
+h2:first-letter{
+  text-transform: capitalize
+}
 /*override bootstrap*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
