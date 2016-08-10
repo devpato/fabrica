@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
     </head>
     <body><div id="top"></div>
         <!--[if lt IE 7]>
@@ -782,23 +783,26 @@
 <section id="info" class="color_section parallax">
   <div class="container"><div class="row">
       <div class="col-sm-12 text-center">
-        <h5 class="contact-phone to_fade">+12 234 456 78</h5>
-        <h2 class="contact-email to_fade"><span><a href="mailto:mail@opendoor.com">mail@opendoor.com</a></span></h2>
-        <p class="contact-address to_fade">Northern Arizona 8088 E. State Highway 69</p>
+        <h5 class="contact-phone to_fade">(477) 7-78-0079</h5>
+        <h2 class="contact-email to_fade"><span><a href="mailto:curtiembres@prodigy.net.mx">curtiembres@prodigy.net.mx</a></span></h2>
+        <p class="contact-address to_fade"><i class="fa fa-map-marker" aria-hidden="true"></i> MONTE CARMELO ·112 COL. ARROYO HONDO ,LEÓN GTO MEXICO</p>
+        <p class="contact-address to_fade"><i class="fa fa-map" aria-hidden="true"></i> CP. 37430</p>
+        <p class="contact-address to_fade"><i class="fa fa-phone" aria-hidden="true"></i> TELEFONO: (477) 778 08 00</p>
+          <p class="contact-address to_fade"><i class="fa fa-fax" aria-hidden="true"></i> FAX: (477) 778 0063 </p>
       </div>
   </div></div>
 </section>
 
 <section id="map_wrap">
-  <div id="map"></div> 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.58566875975!2d-101.7289484433536!3d21.08920441719435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bc0155b212fe9%3A0xe0d470064617182f!2sMonte+Carmelo+112%2C+Arroyo+Hondo%2C+37438+Le%C3%B3n%2C+Gto.%2C+Mexico!5e0!3m2!1sen!2sus!4v1470804934343" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 </section>
 
 <section id="contact" class="dark_section">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="block-header">Contact Us</h2>
-        <h3>Quidem, voluptatum, ipsam sunt error labore ipsum.</h3>
+        <h2 class="block-header">Contactanos </h2>
+        <h3></h3>
       </div>
     </div>
     <div class="row">
@@ -828,44 +832,10 @@
   </div>
 </section>
 
- <footer id="footer" class="bg-color0">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 block widget_text">
-        <div class="block widget_tweet">
-          <h3>Our Twitter</h3>
-            <div class="twitter"></div>
-        </div>
-      </div>
-
-
-    <div class="block col-sm-4 subscribe">
-      <h3>Stay Tuned</h3>
-      <p>Please, subscribe to our latest news to be updated.</p>
-      <form id="signup" action="/" method="get" class="form-inline">
-        <div class="form-group">
-          <input name="email" id="mailchimp_email" type="email" class="form-control" placeholder="your@email.com">
-        </div>
-        <button type="submit" class="theme_btn">Send</button>
-        <div id="response"></div>
-      </form>
-    </div>
-
-
-    <div class="block col-sm-4">
-      <h3>Our Flickr</h3>
-      <ul id="flickr"></ul>
-    </div>
-
-
-    </div>
-  </div>
-</footer>  
-
 <section id="copyright" class="dark_section">
   <div class="container"><div class="row">
     
-    <div class="col-sm-12"><p class="text-center">&copy; Copyright 2014. Template by <a href="http://modernbootstrapthemes.com" target="_blank">Modern Bootstrap Themes</a></p></div>
+    <div class="col-sm-12"><p class="text-center">&copy; Copyright CURTIEMBRES DE MEXICO S.A. DE C.V 2016. website made by <a href="http://wearetamo.com" target="_blank">TAMO</a></p></div>
 
   </div></div>
 </section>
@@ -907,52 +877,7 @@
 
          <!-- Map Scripts -->
 
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript">
-          var lat;
-          var lng;
-          var map;
-
-          //type your address after "address="
-          jQuery.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=Northern Arizona 8088 E. State Highway 69&sensor=false', function(data) {
-                lat = data.results[0].geometry.location.lat;
-                lng = data.results[0].geometry.location.lng;
-              }).complete(function(){
-                dxmapLoadMap();
-              });
-
-          function attachSecretMessage(marker, message)
-          {
-            var infowindow = new google.maps.InfoWindow(
-              { content: message
-              });
-            google.maps.event.addListener(marker, 'click', function() {
-              infowindow.open(map,marker);
-            });
-          }
-
-          window.dxmapLoadMap = function()
-          {
-            var center = new google.maps.LatLng(lat, lng);
-            var settings = {
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
-              zoom: 16,
-              draggable: false,
-              scrollwheel: false,
-              center: center
-            };
-            map = new google.maps.Map(document.getElementById('map'), settings);
-
-            var marker = new google.maps.Marker({
-              position: center,
-              title: 'Map title',
-              map: map
-            });
-            marker.setTitle('Map title'.toString());
-            //type your map title and description here
-            attachSecretMessage(marker, '<h3>Map title</h3>Map HTML description');
-          }
-        </script>
+      
         
        
     </body>
