@@ -1821,9 +1821,9 @@ font-size: 80px;
 }
 
 .single_teaser.icons.style3:hover [class^="rt-icon-"] {
-    background-color: #464646;
+    background-color: #b20000;
     color: #fff;
-    box-shadow: 0 0 0 16px #464646;
+    box-shadow: 0 0 0 16px #35325C;
     -webkit-transform: scale(0.9);
     -moz-transform: scale(0.9);
     -o-transform: scale(0.9);
