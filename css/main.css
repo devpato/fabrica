@@ -28,6 +28,12 @@
 #team,#contact{
     background-color: #35325C;
 }
+.carousel-introtext{
+    color: white !important;
+}
+.rt-icon-lab{
+    background-color: white;
+}
 /*override bootstrap*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
@@ -1802,8 +1808,8 @@ width: 140px;
 height: 140px;
 margin: 0 auto 10px;
 display: inline-block;
-color: #464646;
-box-shadow: 0 0 0 5px #464646;
+color: #35325C;
+box-shadow: 0 0 0 5px #b20000;
 -webkit-transition: all .3s ease-in-out;
 -moz-transition: all .3s ease-in-out;
 -ms-transition: all .3s ease-in-out;
