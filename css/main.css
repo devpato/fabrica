@@ -37,6 +37,41 @@
 h2:first-letter{
   text-transform: capitalize
 }
+.portfolio_item_image{
+    background-color: #b20000;
+    color: white !important;
+}
+.portfolio_links,.p-view,.prettyPhoto,.p-link{
+    color: white !important;
+    background-color: white !important;
+}
+.item_title{
+    background-color: #35325C !important;
+    color: white !important;
+}
+.theme_btn{
+    border-color: #b20000 !important;
+}
+.tipo{
+   border-color: #b20000 !important;
+}
+.tipo> a:hover{
+    color:#35325C !important;
+}
+.owl-prev,.owl-next{
+    color: white !important;
+    font-size:35px !important;
+}
+.entry-content{
+    color:white;
+    background-color: #b20000;
+}
+.entry-title{
+    color: #35325C !important;
+}
+.es-nav-prev,.es-nav-next{
+    color:#b20000;
+}
 /*override bootstrap*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
@@ -639,7 +674,7 @@ aside .block + .block {margin-top: 34px;}
 .bg-color3 {background-color: #00c1e4;}
 
 .border-color1 {border-color: #35325C !important;}
-.border-color2 {border-color: #e6557c !important;}
+.border-color2 {border-color: #35325C !important;}
 .border-color3 {border-color: #00c1e4 !important;}
 
 #copyright {text-align: center; font-size: 14px;}
