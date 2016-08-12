@@ -79,6 +79,33 @@ h2:first-letter{
 .correo{
     color:#b20000 !important;
 }
+#test{
+    padding-top: 5%;
+    background-color: rgba(53, 50, 92, 0.8) !important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+}
+#test2{
+    padding-top: 5%;
+    background-color: rgba(178, 0, 0, 0.5) !important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+}
+#test3{
+    padding-top: 5%;
+    background-color: rgba(53, 50, 92, 0.8) !important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+}
 /*override bootstrap*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
@@ -280,10 +307,23 @@ section#abovecontent {padding: 30px 0;}
     background-position: center;
     background-size: cover;
 }
-#testimonials {background-image: url(../img/parallax/slogan.jpg);}
+#testimonials {
+    background-image: url(../img/fabrica/1.jpg);
+    position: relative;
+    height: 400px !important;
+}
+
 #progress {background-image: url(../img/parallax/progress.jpg);}
-#partners {background-image: url(../img/parallax/partners.jpg);}
-#info {background-image: url(../img/parallax/info.jpg);}
+#partners {
+    background-image: url(../img/fabrica/7.jpg);
+    position: relative;
+    height: 400px !important;
+}
+#info {
+    background-image: url(../img/parallax/info.jpg);
+    position: relative;
+    height: 700px !important;
+}
 
 
 /*main*/
