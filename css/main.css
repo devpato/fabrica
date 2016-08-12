@@ -1360,7 +1360,7 @@ text-align: center;
     display: block;
     height: 60px;
     width: 60px;
-    margin-left: -60px;
+    margin-left: -30px;
     position: absolute;
     top: 50%;
     margin-top: -30px;
@@ -1385,7 +1385,8 @@ text-align: center;
     -moz-transition: 0.3s all ease-in-out; 
     -o-transition: 0.3s all ease-in-out; 
     -ms-transition: 0.3s all ease-in-out; 
-    transition: 0.3s all ease-in-out;    
+    transition: 0.3s all ease-in-out;
+    
 }
 
 #portfolio .heart:before{
