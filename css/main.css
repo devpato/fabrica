@@ -76,6 +76,9 @@ h2:first-letter{
 .es-nav-prev,.es-nav-next{
     color:#b20000;
 }
+.correo{
+    color:#b20000 !important;
+}
 /*override bootstrap*/
 .clearfix {clear: both;}
 .navbar-brand {float: none; padding: 0;}
