@@ -196,7 +196,12 @@ section#abovecontent {padding: 30px 0;}
     
     overflow: hidden;    
 }
-#land {background-image: url(../img/parallax/top1.jpg); background-position: 50% 100%;}
+#land {
+    background-image: url(../img/fabrica/23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+ }
 #testimonials {background-image: url(../img/parallax/slogan.jpg);}
 #progress {background-image: url(../img/parallax/progress.jpg);}
 #partners {background-image: url(../img/parallax/partners.jpg);}
