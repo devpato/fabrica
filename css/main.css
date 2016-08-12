@@ -21,6 +21,15 @@
 #copyright{
     background-color: #b20000 !important;
 }
+a:active{
+    color:#b20000 !important;
+}
+a:hover{
+    color:#b20000 !important;
+}
+a:visited{
+    color:#b20000 !important;
+}
 .zaz{
     background-color: #35325C !important;
     color: white !important;
@@ -450,10 +459,6 @@ iframe{border:none; max-width: 100%;}
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out; 
 }
-.theme_btn:active {
-
-}
-
 .theme_btn.inverse {
     background-color: transparent;
     border: 1px solid #2d2d2d;
@@ -463,9 +468,11 @@ iframe{border:none; max-width: 100%;}
     border-color: #35325C;
     color:#35325C;
 }
-
+.navbar-fixed-top .active a { 
+    color: #B20000 !important;
+ }
 .theme_btn + .theme_btn {margin-left: 4px;}
-
+.bg-color0 {background-color: rgba(53, 50, 92, 0.8) !important}/*rgba(178, 0, 0, 0.5) !important;rgba(53, 50, 92, 0.8) !important;*/
 .bg-color1 {background-color: #35325C;}
 .bg-color2 {background-color: #e6557c;}
 .bg-color3 {background-color: #00c1e4;}
