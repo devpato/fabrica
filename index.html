@@ -17,6 +17,10 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+      
+
+        
+
     </head>
     <body><div id="top"></div>
         <!--[if lt IE 7]>
@@ -192,11 +196,16 @@
             <li class="cer">En Abril, se instalan paneles solares para disminuir el consumo de gas utilizando en el calentamiento de agua.</li>
             <li class="cer">En Agosto reciclamos y reutilizamos todos los baños del cromo de curtido que se generen en la empresa.</li>
           </div>
-          <center><img class="img img-full img-responsive" src="example/cicur.png"><center>
+          <center>
+            <img id="zoom_01" src='example/cicur.png' data-zoom-image="example/cicur.png"/>
+     
+          <center>
+        
       </div>   
 
     </div>
   </div>
+
 </section>
 
 
@@ -885,8 +894,17 @@
         <script src='twitter/jquery.tweet.min.js'></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-         <!-- Map Scripts -->   
+        <script src='js/jquery.elevatezoom.js'></script>
+        <script>
+            $('#zoom_01').elevateZoom({
+              zoomType: "inner",
+              cursor: "crosshair",
+              zoomWindowFadeIn: 500,
+              zoomWindowFadeOut: 750
+          }); 
+      </script>
+	     
+         
              
     </body>
 </html>
