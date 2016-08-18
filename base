@@ -1,0 +1,132 @@
+  $("#zoom_02").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_03").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_04").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_05").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_06").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_07").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_08").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_09").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_010").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_011").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_012").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_013").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_014").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_015").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_016").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_017").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_018").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_019").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_020").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_021").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });
+          $("#zoom_022").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200
+            scrollZoom  : "True"
+          });
+          $("#zoom_023").elevateZoom({
+            zoomType				: "lens",
+            lensShape : "round",
+            lensSize    : 200,
+            scrollZoom  : "True"
+          });

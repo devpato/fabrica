@@ -24,6 +24,12 @@
 a:active{
     color:#b20000 !important;
 }
+#mouse{
+    display:none;    
+}
+#mousePic{
+    cursor:help;
+}
 ul{
     list-style-type: none;
 }
