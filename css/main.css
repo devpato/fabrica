@@ -24,6 +24,9 @@
 a:active{
     color:#b20000 !important;
 }
+ul{
+    list-style-type: none;
+}
 a:hover{
     color:#b20000 !important;
 }
