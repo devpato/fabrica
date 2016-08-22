@@ -385,28 +385,31 @@
 <div id="portfolio_wrapper" class="row">
     <div class="text-center filters col-sm-12">
       <ul id="filtrable">
-        <li><a class="selected" data-filter="*" href="#">Todos</a></li>
-        <li><a data-filter=".barcelona" href="#" class="tipo">barcelona</a></li>
-        <li><a data-filter=".bufalino" href="#" class="tipo">bufalino</a></li>
-        <li><a data-filter=".atanado" href="#" class="tipo">atando</a></li>
-        <li><a data-filter=".corzo" href="#" class="tipo">corzo</a></li>
-        <li><a data-filter=".bf" href="#" class="tipo">bull fight</a></li>
-        <li><a data-filter=".crazy" href="#" class="tipo">crazy</a></li>
-        <li><a data-filter=".napa" href="#" class="tipo">napa</a></li>
-        <li><a data-filter=".nubuck" href="#" class="tipo">nubuck</a></li>
-        <li><a data-filter=".oldriver" href="#" class="tipo">old river</a></li>
-        <li><a data-filter=".pullup" href="#" class="tipo">pull up</a></li>
-        <li><a data-filter=".napoles" href="#" class="tipo">napoles</a></li>
-        <li><a data-filter=".ny" href="#" class="tipo">new York</a></li>
-        <li><a data-filter=".floater" href="#" class="tipo">floater</a></li>
-        <li><a data-filter=".sinatra" href="#" class="tipo">sinatra</a></li>
-        <li><a data-filter=".toscano" href="#" class="tipo">toscano</a></li>
-        <li><a data-filter=".terremoto" href="#" class="tipo">terremoto</a></li>
+        <li id="todos"><a class="selected" data-filter="*" href="#">Todos</a></li>
+        <li id="barcelona"><a data-filter=".barcelona" href="#" class="tipo">barcelona</a></li>
+        <li id="bufalino"><a data-filter=".bufalino" href="#" class="tipo">bufalino</a></li>
+        <li id="atanado"><a data-filter=".atanado" href="#" class="tipo">atando</a></li>
+        <li id="corzo"><a data-filter=".corzo" href="#" class="tipo">corzo</a></li>
+        <li id="bf"><a data-filter=".bf" href="#" class="tipo">bull fight</a></li>
+        <li id="crazy"><a data-filter=".crazy" href="#" class="tipo">crazy</a></li>
+        <li id="napa"><a data-filter=".napa" href="#" class="tipo">napa</a></li>
+        <li id="nubuck"><a data-filter=".nubuck" href="#" class="tipo">nubuck</a></li>
+        <li id="oldriver"><a data-filter=".oldriver" href="#" class="tipo">old river</a></li>
+        <li id="pullup"><a data-filter=".pullup" href="#" class="tipo">pull up</a></li>
+        <li id="napoles"><a data-filter=".napoles" href="#" class="tipo">napoles</a></li>
+        <li id="ny"><a data-filter=".ny" href="#" class="tipo">new York</a></li>
+        <li id="floater"><a data-filter=".floater" href="#" class="tipo">floater</a></li>
+        <li id="sinatra"><a data-filter=".sinatra" href="#" class="tipo">sinatra</a></li>
+        <li id="toscano"><a data-filter=".toscano" href="#" class="tipo">toscano</a></li>
+        <li id="terremoto"><a data-filter=".terremoto" href="#" class="tipo">terremoto</a></li>
       </ul>
       <div class="clearfix"></div>
     </div>
       <!-- Items -->
-      
+       <center>
+        <p id="descripciones">       
+        </p>
+      </center> 
       <ul class="items-row row cols-3 filtrable clearfix " id="portfolioContainer">
         <li class="item col-sm-6 col-md-4 barcelona ">          
           <!-- Image  -->          
@@ -1107,7 +1110,57 @@
             lensSize    : 200,
             scrollZoom  : "True"
           });
-          
+           $("#todos").click(function(){
+            $("#descripciones").text("");
+          });
+          $("#barcelona").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+          });
+           $("#bufalino").click(function(){
+            $("#descripciones").text("PIEL DE RES CURTIDA AL CROMO CON RECURTIDO VEGETAL, EN CALIBRE 16-18, TIENE UN GRABADO DE PLACA SIMULANDO EL PORO NATURAL DE BUFALO AMERICANO Y UN ACABADO GRASSO PARA LOGRAR UN LIGERO EFECTO DE PULL UP, SU CUERPO ES ARMADO Y SU TACTO SECO.");
+          });
+           $("#atanado").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES, TERMINDA EN FLOR ENTERA, Y RECURTIDA CON UN ALTO PORCENTAJE DE TANINOS, ETO LE CONFIERE UN CUERPO REDONDO Y LLENO, TIENE UN ACABADO CON ANILINA Y CERAS QUE AL CONTACTO CON EL CALOR O LA ABRACION PRODUCEN UN EFECTO DE DOBLE TONO O QUEMADO.");
+          });
+           $("#corzo").click(function(){
+            $("#descripciones").text("ES UNA PIEL TIPO NAPA SUAVE EN FLOR ENTERA CON UN GRABADO DE PORO, LLEVA UN ACABADO CON  UN PIGMENTO NO MUY CARGADO PARA QUE NO DE UN EFECTO PLASTIFICADO SINO QUE SE VEA NATURAL Y UNA LACA SEDOSA EN MATE. LA SUAVIDAD DEBE SER ALTA ,ES UNA FLOR ENTERA GRABADA, EL TACTO ES SEDOSO POR FLOR Y FRESCO POR CARNE, EL CALIBRE ES 1.4/1.6 MM Y 1.2/1.4MM, PIGMENTADO LIGERO, MATE, SIN QUIEBRE.");
+          });
+           $("#bf").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES , ACABADA EN FLOR ENTERA CON ACEITES, LLEVA UN GARABADO GRUESO DE TIPO RONDINELO , PARA DAR UN EFECTO DE PULLUP GRABADO, ESTA TAMBOREADA. ES MUY SUAVE, FLOR ENTERA CON TACTO GRASSO EN CALIBRE 16 -18, ES NATURAL SIN ACABADOS, EL BRILLO ES MATE Y PUEDE PRESENTAR QUIEBRES LARGOS.");
+          });
+           $("#crazy").click(function(){
+            $("#descripciones").text("PIEL DE RES PULIDA  Y ACABADA CON CERAS Y ACEITES PARA DAR UN EFECTO LIGERO DE PULL UP Y UNA APERIENCIA DE AVEJENTADO. SUAVIDAD MEDIA, TACTO SECO , FLOR PULIDA MEDIANO, SIN PIGMENTO, BRILLO MATE Y LIGERO QUIEBRE.");
+          });
+           $("#napa").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+          });
+           $("#nubuck").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES PULIDA CON SUAVIDA Y COLOR FIRME PARA DAR UN EFECTO DE TERCIOPELO, CON UN TACTO MUY SEDOSO.SUAVIDAD MEDIA, FLOR PULIDA SUAVE, TACTO SEDOSO, CALIBRE 14-16 Y 16 – 18, ACABADO ANILINA, BRILLO MATE Y QUIEBRE LIGERO.");
+          });
+           $("#oldriver").click(function(){
+            $("#descripciones").text("ES UN GRASSO EN FLOR ENTERA OBTENIDO DE UNA PIEL DE RES EN UN CALIBRE 16-18 , SU CURTIDO ES AL CROMO Y SU ACABADO ES ANILINA CON ACEITES Y CERAS PARA LOGRAR UN EFECTO LIGERO DE PULL UP Y UNA BUENA REPELENCIA, TIENE SUAVIDAD MEDIA Y UN TACTO GRASSOSO.");
+          });
+           $("#pullup").click(function(){
+            $("#descripciones").text("PIEL DE RES CON FLOR CORREGIDA LIGERA, ACABADO CON CERA Y ACEITE PARA DAR UN EFECTO DE BITONO, ESTA PROTEGIDA EN SU CAPA SUPERIOR CON RESINAS PARA DARLE BRILLO. SUAVIDAD MEDIA, FLOR PULIDA,TACTO CEROSO, CALIBRE 14- 16 Y 16- 18, CON ACABADO RESINOSO, POCOS QUIEBRES.");
+          });
+           $("#napoles").click(function(){
+            $("#descripciones").text("PIEL DE RES PULIDA Y CON UN ACABADO GRUESO DE PIGMENTO, GRABADA CON PORO FINO, IDEAL PARA ZAPATO ESCOLAR Y DE VESTIR, MUY RESISTENTE Y FACIL DE BOLEAR. SUVIDA MEDIA,FLOR PULIDA , TACTO SEDOSO,CALIBRE 14 – 16, BIEN PIGMENTADA, BRLLO MEDIO , SIN QUIEBRE.");
+          });
+           $("#ny").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+          });
+           $("#floater").click(function(){
+            $("#descripciones").text("PIEL DE RES , ACABADA EN FLOR ENTERA Y GRABADA CON UNA PLACA DE RONDINELO. SUAVE, FLOR ENTERA, TACTO SILICONADO,CALIBRE 16- 18 Y 18- 20,PIGMENTADO Y CON BRILLO MEDIO.");
+          });
+           $("#sinatra").click(function(){
+            $("#descripciones").text("ES UNA PIEL DE RES, ENGRASADA CON CERA EN ELTAMBOR, GRABADA Y TAMBOREADA EN FLOR ENTERA PARA LOGRAR UN EFECTO INTENSO DE PULL UP.MUY SUAVE, TACTO SEDOSO, CALIBRE 16 -18 Y 14 – 16, FLOR ENTERA CON BRILLO MEDIO, PUEDE PRESENTAR QUIEBRES LARGOS.");
+          });
+           $("#toscano").click(function(){
+            $("#descripciones").text("PIEL DE RES CURTIDA LA CROMO Y RECURTIDA FUERTEMENTE VEGETAL, TIENE UNA APATIENCIA MUY NATURAL YA QUE ES ACABDA EN ANILINA Y CERAS CON UN LIGERO TAMBOREADO, SU CALIBRE ES DELGADO Y SU TACTO ES CEROSO Y SUAVE, TIENE BRILLO MEDIO Y UN LIGERO GRANEADO.");
+          });
+           $("#terremoto").click(function(){
+            $("#descripciones").text("ES PIEL DE RES CURTIDA AL CROMO Y ACABDADA EN FLOR ENTERA, SE LE PROVOCA UNA MANCHA TIPO TELARANA DE MANERA NATURAL,  LOGRANDO UN EFECTO DE ARRUGADO , SU ACABADO ES ANILINA CON CERA , CON LO CUAL SE PUEDE BROCHELEAR O QUEMAR EN CEPILLO LOGRANDO UN TERMINADO NATURAL.");
+          });
         
       </script>
 	     
