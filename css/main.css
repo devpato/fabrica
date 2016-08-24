@@ -337,6 +337,42 @@ section#abovecontent {padding: 30px 0;}
     position: relative;
     height: 400px !important;
 }
+.barraRoja{
+    position: absolute !important;
+    z-index: -100 !important;
+    width: 0%;
+    height: 50px;
+    background-color: #b20000;
+    margin-top: 5%;    
+}
+.barraRoja2{
+    position: absolute !important;
+    z-index: -100 !important;
+    width: 0%;
+    height: 50px;
+    background-color: #b20000;
+    margin-top: 25%;    
+}
+.barraAzul{
+    position: absolute !important;
+    z-index: -100 !important;
+    width: 0%;
+    height: 50px;
+    background-color: #35325C;
+    margin-top: 10%;
+}
+.barraAzul2{
+    position: absolute !important;
+    z-index: -100 !important;
+    width: 0%;
+    height: 50px;
+    background-color: #35325C;
+    margin-top: 30%;
+}
+.barcelona{
+   position:  aboslute !important;
+   z-index: 0 !important;
+}
 #info {
     background-image: url(../img/parallax/info.jpg);
     position: relative;

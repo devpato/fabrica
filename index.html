@@ -359,7 +359,7 @@
           </div>
           <div class="item">
             <p class="carousel-introtext">
-              <span>TECHNOLOGIA</span>
+              <span>TECNOLOGIA</span>
             </p>
           </div>
           <div class="item">
@@ -410,18 +410,28 @@
         <p id="descripciones">       
         </p>
       </center> 
+       <div class="barraRoja">
+       </div>
+       <div class="barraAzul">
+       </div>
+        <div class="barraRoja2">
+       </div>
+       <div class="barraAzul2">
+       </div>
       <ul class="items-row row cols-3 filtrable clearfix " id="portfolioContainer">
+       
         <li class="item col-sm-6 col-md-4 barcelona ">          
-          <!-- Image  -->          
-          <div class="">
-             <img id="zoom_01" src='img/pieles/1.jpg' class="post-image" data-zoom-image="img/pieles/1.jpg" style="height:240px;width:360px"/>           
-          </div>
-          <div class="item_title">
-            <h4>
-              <span style="color:white !important;">Muestras Barcelona</span>
-            </h4>
-          </div>
+        <!-- Image  -->          
+            <div class="">
+                <img id="zoom_01" src='img/pieles/1.jpg' class="post-image" data-zoom-image="img/pieles/1.jpg" style="height:240px;width:360px"/>           
+            </div>
+            <div class="item_title">
+                <h4>
+                <span style="color:white !important;">Muestras Barcelona</span>
+                </h4>
+            </div>
         </li>
+          
         <li class="item col-sm-6 col-md-4 bufalino ">          
           <!-- Image  -->          
           <div class="">
@@ -1215,9 +1225,15 @@
           });
            $("#todos").click(function(){
             $("#descripciones").text("");
+            $('.barraRoja').animate({width:'0%',opacity: '0.5'},'slow');
+            $('.barraAzul').animate({width:'0%',opacity: '0.5'},'fast');
           });
           $("#barcelona").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+            $('.barraRoja').animate({width:'100%',opacity: '0.5'},'slow');
+            $('.barraAzul').animate({width:'100%',opacity: '0.5'},'fast');
+             $('.barraRoja2').animate({width:'0%',opacity: '0.5'},'slow');
+           
           });
            $("#bufalino").click(function(){
             $("#descripciones").text("PIEL DE RES CURTIDA AL CROMO CON RECURTIDO VEGETAL, EN CALIBRE 16-18, TIENE UN GRABADO DE PLACA SIMULANDO EL PORO NATURAL DE BUFALO AMERICANO Y UN ACABADO GRASSO PARA LOGRAR UN LIGERO EFECTO DE PULL UP, SU CUERPO ES ARMADO Y SU TACTO SECO.");
@@ -1239,6 +1255,10 @@
           });
            $("#nubuck").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES PULIDA CON SUAVIDA Y COLOR FIRME PARA DAR UN EFECTO DE TERCIOPELO, CON UN TACTO MUY SEDOSO.SUAVIDAD MEDIA, FLOR PULIDA SUAVE, TACTO SEDOSO, CALIBRE 14-16 Y 16 – 18, ACABADO ANILINA, BRILLO MATE Y QUIEBRE LIGERO.");
+            $('.barraRoja').animate({width:'100%',opacity: '0.5'},'slow');
+            $('.barraAzul').animate({width:'100%',opacity: '0.5'},'fast');
+            $('.barraRoja2').animate({width:'100%',opacity: '0.5'},'slow');
+            $('.barraAzul2').animate({width:'100%',opacity: '0.5'},'slow');
           });
            $("#oldriver").click(function(){
             $("#descripciones").text("ES UN GRASSO EN FLOR ENTERA OBTENIDO DE UNA PIEL DE RES EN UN CALIBRE 16-18 , SU CURTIDO ES AL CROMO Y SU ACABADO ES ANILINA CON ACEITES Y CERAS PARA LOGRAR UN EFECTO LIGERO DE PULL UP Y UNA BUENA REPELENCIA, TIENE SUAVIDAD MEDIA Y UN TACTO GRASSOSO.");
