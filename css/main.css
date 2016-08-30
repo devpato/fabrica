@@ -330,7 +330,15 @@ section#abovecontent {padding: 30px 0;}
     position: relative;
     height: 400px !important;
 }
-
+.tamo:active{
+    color:white !important;
+}
+.tamo:link{
+    color:white !important;
+}
+.tamo:visited{
+    color:white !important;
+}
 #progress {background-image: url(../img/parallax/progress.jpg);}
 #partners {
     background-image: url(../img/fabrica/36.jpg);
