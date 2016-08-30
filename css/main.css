@@ -312,7 +312,7 @@ section#abovecontent {padding: 30px 0;}
     -ms-transition: none;
     transition: none;
 
-/*    -webkit-transition: background-position .3s ease !important;
+/*  -webkit-transition: background-position .3s ease !important;
     -moz-transition: background-position .3s ease !important;
     -o-transition: background-position .3s ease !important;
     -ms-transition: background-position .3s ease !important;
@@ -333,7 +333,7 @@ section#abovecontent {padding: 30px 0;}
 
 #progress {background-image: url(../img/parallax/progress.jpg);}
 #partners {
-    background-image: url(../img/fabrica/7.jpg);
+    background-image: url(../img/fabrica/36.jpg);
     position: relative;
     height: 400px !important;
 }

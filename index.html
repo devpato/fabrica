@@ -859,7 +859,7 @@
                           <br>
                         </h2>
                         
-                        <p>maquina para acabado</p>
+                        <p>fabrica</p>
                         
                       </div>
                       <!-- .entry-content -->
@@ -885,7 +885,7 @@
                           <br>
                         </h2>
                         
-                        <p>maquina de planchado</p>
+                        <p>tunel de secado y maquina para aflojar</p>
                         
                       </div>
                       <!-- .entry-content -->
@@ -1223,13 +1223,13 @@
             lensSize    : 200,
             scrollZoom  : "True"
           });
-           $("#todos").click(function(){
+                 $("#todos").click(function(){
             $("#descripciones").text("");
             $('.barraRoja').animate({width:'0%',opacity: '0.5'},'slow');
             $('.barraAzul').animate({width:'0%',opacity: '0.5'},'fast');
             $(".barcelona").show();
             $(".bufalino").show();
-            $('.atandao').show();
+            $('.atanado').show();
             $('.corzo').show();
             $('.bf').show();
             $('.crazy').show();
@@ -1249,6 +1249,7 @@
             $('.barraRoja').animate({width:'100%',opacity: '0.5'},'slow');
             $('.barraAzul').animate({width:'100%',opacity: '0.5'},'fast');
             $('.barraRoja2').animate({width:'0%',opacity: '0.5'},'slow');
+            $(".barcelona").show();
             $(".bufalino").hide();
             $('.atandao').hide();
             $('.corzo').hide();
@@ -1268,6 +1269,7 @@
           });
            $("#bufalino").click(function(){
             $("#descripciones").text("PIEL DE RES CURTIDA AL CROMO CON RECURTIDO VEGETAL, EN CALIBRE 16-18, TIENE UN GRABADO DE PLACA SIMULANDO EL PORO NATURAL DE BUFALO AMERICANO Y UN ACABADO GRASSO PARA LOGRAR UN LIGERO EFECTO DE PULL UP, SU CUERPO ES ARMADO Y SU TACTO SECO.");
+            $(".bufalino").show();
             $(".barcelona").hide();
             $('.atandao').hide();
             $('.corzo').hide();
@@ -1286,7 +1288,8 @@
           });
            $("#atanado").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES, TERMINDA EN FLOR ENTERA, Y RECURTIDA CON UN ALTO PORCENTAJE DE TANINOS, ETO LE CONFIERE UN CUERPO REDONDO Y LLENO, TIENE UN ACABADO CON ANILINA Y CERAS QUE AL CONTACTO CON EL CALOR O LA ABRACION PRODUCEN UN EFECTO DE DOBLE TONO O QUEMADO.");
-             $(".barcelona").hide();
+            $(".atanado").show();
+            $(".barcelona").hide();
             $('.bufalino').hide();
             $('.corzo').hide();
             $('.bf').hide();
@@ -1304,6 +1307,7 @@
           });
            $("#corzo").click(function(){
             $("#descripciones").text("ES UNA PIEL TIPO NAPA SUAVE EN FLOR ENTERA CON UN GRABADO DE PORO, LLEVA UN ACABADO CON  UN PIGMENTO NO MUY CARGADO PARA QUE NO DE UN EFECTO PLASTIFICADO SINO QUE SE VEA NATURAL Y UNA LACA SEDOSA EN MATE. LA SUAVIDAD DEBE SER ALTA ,ES UNA FLOR ENTERA GRABADA, EL TACTO ES SEDOSO POR FLOR Y FRESCO POR CARNE, EL CALIBRE ES 1.4/1.6 MM Y 1.2/1.4MM, PIGMENTADO LIGERO, MATE, SIN QUIEBRE.");
+            $(".corzo").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1322,6 +1326,7 @@
           });
            $("#bf").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES , ACABADA EN FLOR ENTERA CON ACEITES, LLEVA UN GARABADO GRUESO DE TIPO RONDINELO , PARA DAR UN EFECTO DE PULLUP GRABADO, ESTA TAMBOREADA. ES MUY SUAVE, FLOR ENTERA CON TACTO GRASSO EN CALIBRE 16 -18, ES NATURAL SIN ACABADOS, EL BRILLO ES MATE Y PUEDE PRESENTAR QUIEBRES LARGOS.");
+            $(".bf").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1341,6 +1346,7 @@
           });
            $("#crazy").click(function(){
             $("#descripciones").text("PIEL DE RES PULIDA  Y ACABADA CON CERAS Y ACEITES PARA DAR UN EFECTO LIGERO DE PULL UP Y UNA APERIENCIA DE AVEJENTADO. SUAVIDAD MEDIA, TACTO SECO , FLOR PULIDA MEDIANO, SIN PIGMENTO, BRILLO MATE Y LIGERO QUIEBRE.");
+            $(".crazy").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1359,6 +1365,7 @@
           });
            $("#napa").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+            $(".napa").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1381,6 +1388,7 @@
             $('.barraAzul').animate({width:'100%',opacity: '0.5'},'fast');
             $('.barraRoja2').animate({width:'100%',opacity: '0.5'},'slow');
             $('.barraAzul2').animate({width:'100%',opacity: '0.5'},'slow');
+            $(".nubuck").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1399,6 +1407,7 @@
           });
            $("#oldriver").click(function(){
             $("#descripciones").text("ES UN GRASSO EN FLOR ENTERA OBTENIDO DE UNA PIEL DE RES EN UN CALIBRE 16-18 , SU CURTIDO ES AL CROMO Y SU ACABADO ES ANILINA CON ACEITES Y CERAS PARA LOGRAR UN EFECTO LIGERO DE PULL UP Y UNA BUENA REPELENCIA, TIENE SUAVIDAD MEDIA Y UN TACTO GRASSOSO.");
+            $(".oldriver").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1417,6 +1426,7 @@
           });
            $("#pullup").click(function(){
             $("#descripciones").text("PIEL DE RES CON FLOR CORREGIDA LIGERA, ACABADO CON CERA Y ACEITE PARA DAR UN EFECTO DE BITONO, ESTA PROTEGIDA EN SU CAPA SUPERIOR CON RESINAS PARA DARLE BRILLO. SUAVIDAD MEDIA, FLOR PULIDA,TACTO CEROSO, CALIBRE 14- 16 Y 16- 18, CON ACABADO RESINOSO, POCOS QUIEBRES.");
+            $(".pullup").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1435,6 +1445,7 @@
           });
            $("#napoles").click(function(){
             $("#descripciones").text("PIEL DE RES PULIDA Y CON UN ACABADO GRUESO DE PIGMENTO, GRABADA CON PORO FINO, IDEAL PARA ZAPATO ESCOLAR Y DE VESTIR, MUY RESISTENTE Y FACIL DE BOLEAR. SUVIDA MEDIA,FLOR PULIDA , TACTO SEDOSO,CALIBRE 14 – 16, BIEN PIGMENTADA, BRLLO MEDIO , SIN QUIEBRE.");
+            $(".napoles").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1453,6 +1464,7 @@
           });
            $("#ny").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES CURTIDA AL CROMO, EN CALIBRE 11- 13 , SU APARIENCIA ES QUEBRADA Y BRILLANTE Y CON UN DOBLE EFECTO DE FONDOS CLAROS QUE SE OBTIENEN DE SU ACABADO CON RESINAS Y CEREAS Y UN TAMBOR EN SU TACTO ES SEDOSO Y SU BRILLO ES ALTO, SE USA MUY BIEN PARA TUBOS DE BOTA.");
+            $(".ny").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1471,6 +1483,7 @@
           });
            $("#floater").click(function(){
             $("#descripciones").text("PIEL DE RES , ACABADA EN FLOR ENTERA Y GRABADA CON UNA PLACA DE RONDINELO. SUAVE, FLOR ENTERA, TACTO SILICONADO,CALIBRE 16- 18 Y 18- 20,PIGMENTADO Y CON BRILLO MEDIO.");
+            $(".floater").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1489,6 +1502,7 @@
           });
            $("#sinatra").click(function(){
             $("#descripciones").text("ES UNA PIEL DE RES, ENGRASADA CON CERA EN ELTAMBOR, GRABADA Y TAMBOREADA EN FLOR ENTERA PARA LOGRAR UN EFECTO INTENSO DE PULL UP.MUY SUAVE, TACTO SEDOSO, CALIBRE 16 -18 Y 14 – 16, FLOR ENTERA CON BRILLO MEDIO, PUEDE PRESENTAR QUIEBRES LARGOS.");
+            $(".sinatra").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1507,6 +1521,7 @@
           });
            $("#toscano").click(function(){
             $("#descripciones").text("PIEL DE RES CURTIDA LA CROMO Y RECURTIDA FUERTEMENTE VEGETAL, TIENE UNA APATIENCIA MUY NATURAL YA QUE ES ACABDA EN ANILINA Y CERAS CON UN LIGERO TAMBOREADO, SU CALIBRE ES DELGADO Y SU TACTO ES CEROSO Y SUAVE, TIENE BRILLO MEDIO Y UN LIGERO GRANEADO.");
+            $(".toscano").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1525,6 +1540,7 @@
           });
            $("#terremoto").click(function(){
             $("#descripciones").text("ES PIEL DE RES CURTIDA AL CROMO Y ACABDADA EN FLOR ENTERA, SE LE PROVOCA UNA MANCHA TIPO TELARANA DE MANERA NATURAL,  LOGRANDO UN EFECTO DE ARRUGADO , SU ACABADO ES ANILINA CON CERA , CON LO CUAL SE PUEDE BROCHELEAR O QUEMAR EN CEPILLO LOGRANDO UN TERMINADO NATURAL.");
+            $(".terremoto").show();
             $(".barcelona").hide();
             $('.bufalino').hide();
             $('.atanado').hide();
@@ -1541,6 +1557,8 @@
             $('.sinatra').hide();
             $('.toscano').hide();
           });
+        
+
         
       </script>
 	     
