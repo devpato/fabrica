@@ -14,6 +14,7 @@
     background-color: #b20000;
  
 }
+
 .anpic{
     display: block;
     padding-top: 12vh;  
@@ -693,6 +694,9 @@ font-size: 30px !important;
 @media screen and (max-width: 767px) {
     #land {margin-top: 0;}
      #header .navbar-brand {display: block; top:-5px;}
+}
+@media screen and (min-width: 767px) {    
+     #parra {display: none;}
 }
 .mainmenu_wrap:before, .mainmenu_wrap:after {display: table; content:""; clear:both;}
 
